@@ -10,8 +10,8 @@ import timeit
 import numpy as np
 import torch
 
-import densitymodel
-import dataset
+from deepdft import densitymodel
+from deepdft import dataset
 
 
 def get_arguments(arg_list=None):

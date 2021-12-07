@@ -3,8 +3,8 @@ import math
 import ase
 import torch
 from torch import nn
-import layer
-from layer import ShiftedSoftplus
+from deepdft import layer
+from deepdft.layer import ShiftedSoftplus
 
 
 class DensityModel(nn.Module):

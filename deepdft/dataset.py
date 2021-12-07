@@ -19,7 +19,7 @@ import ase.io.cube
 from ase.calculators.vasp import VaspChargeDensity
 import asap3
 
-from layer import pad_and_stack
+from deepdft.layer import pad_and_stack
 
 
 def rotating_pool_worker(dataset, rng, queue):

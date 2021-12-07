@@ -9,9 +9,9 @@ import math
 
 import numpy as np
 
-import dataset
-import densitymodel
-import utils
+from deepdft import dataset
+from deepdft import densitymodel
+from deepdft import utils
 
 def get_arguments(arg_list=None):
     parser = argparse.ArgumentParser(

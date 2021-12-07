@@ -11,8 +11,8 @@ import ase.units
 import numpy as np
 import torch
 
-import dataset
-import densitymodel
+from deepdft import dataset
+from deepdft import densitymodel
 from runner import split_data
 from utils import write_cube_to_tar
 
